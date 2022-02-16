@@ -1,0 +1,269 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, -sans-serif;
+}
+/* -----------------Початок------------------- */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.content {
+  flex: 1 1 auto;
+}
+.hello {
+  background-color: #445162;
+  padding: 50px 0;
+}
+.hello__row {
+  display: flex;
+  justify-content: space-between;
+}
+.hello__body {
+  color: #fff;
+  padding: 0px 30px 0px 0px;
+}
+.helo__title {
+  font-size: 60px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  margin: 0px 0px 36px 0px;
+}
+.hello__list {
+}
+.hello__list li {
+  background: url(/img/check_icon.png) 0 1px no-repeat;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 0px 0px 0px 36px;
+  margin: 0px 0px 17px 0px;
+}
+hello__list li :last-child {
+  margin: 0;
+}
+.hello__img {
+}
+
+.what {
+}
+.what__row {
+  display: flex;
+  justify-content: space-between;
+}
+.what__body {
+  order: 2;
+  padding: 50px 0px 50px 19px;
+}
+.what__title {
+  color: #445161;
+  font-size: 30px;
+  line-height: 36px;
+}
+.what__text {
+  padding-top: 36px;
+  color: #333333;
+  font-style: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.what__text p {
+  padding-bottom: 20px;
+}
+.what__text p :last-child {
+  padding: 0;
+}
+.what__img {
+  order: 1;
+  padding: 50px 0px 64px 50px;
+}
+what__img img {
+  flex: 0 0 430px;
+}
+
+.columns {
+  background-color: #f5f5f5;
+}
+
+.columns__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.columns__title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+}
+.title {
+  text-align: center;
+  justify-content: center;
+
+  padding: 50px 0px 30px 0px;
+}
+.columns__column {
+  flex: 0 1 50%;
+}
+.item__row {
+  display: flex;
+}
+.item__img {
+  padding: 30px 15px;
+}
+item__img img {
+  flex: 0 0 200px;
+}
+
+.item__text {
+}
+.text__title {
+  tab-size: 24px;
+  line-height: 30px;
+  color: #445161;
+}
+.text__text {
+  tab-size: 16px;
+  line-height: 24px;
+}
+
+.like {
+}
+
+.like__title {
+  color: #445161;
+  font-size: 30px;
+  line-height: 36px;
+}
+.like__row {
+  display: flex;
+}
+.like__card {
+  flex: 0 1 25%;
+  background-color: #445162;
+  min-height: 500px;
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+}
+.card__top {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 15px 90px 15px 90px;
+  justify-content: center;
+  text-align: center;
+}
+.card__2 {
+  color: #445162;
+  background-color: #fff;
+  font-size: 40px;
+  line-height: 30px;
+  padding: 25px 0px;
+  justify-content: center;
+  text-align: center;
+}
+.card__text {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 20px;
+  flex: 1 1 auto;
+}
+.card__btn {
+  background-color: #fff;
+  color: #445161;
+  font-size: 18px;
+  line-height: 18px;
+}
+/*-----------footer----------------*/
+.footer {
+  background-color: #f5f5f5;
+}
+.footer__row {
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+.footer__text {
+  color: #445162;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
