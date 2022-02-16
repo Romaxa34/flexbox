@@ -203,55 +203,6 @@ item__img img {
   line-height: 24px;
 }
 
-.like {
-}
-
-.like__title {
-  color: #445161;
-  font-size: 30px;
-  line-height: 36px;
-}
-.like__row {
-  display: flex;
-}
-.like__card {
-  flex: 0 1 25%;
-  background-color: #445162;
-  min-height: 500px;
-}
-.card__item {
-  display: flex;
-  flex-direction: column;
-}
-.card__top {
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 30px;
-  padding: 15px 90px 15px 90px;
-  justify-content: center;
-  text-align: center;
-}
-.card__2 {
-  color: #445162;
-  background-color: #fff;
-  font-size: 40px;
-  line-height: 30px;
-  padding: 25px 0px;
-  justify-content: center;
-  text-align: center;
-}
-.card__text {
-  font-size: 14px;
-  line-height: 24px;
-  padding: 20px;
-  flex: 1 1 auto;
-}
-.card__btn {
-  background-color: #fff;
-  color: #445161;
-  font-size: 18px;
-  line-height: 18px;
-}
 /*-----------footer----------------*/
 .footer {
   background-color: #f5f5f5;
