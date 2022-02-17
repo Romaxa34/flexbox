@@ -168,13 +168,13 @@ what__img img {
   flex-wrap: wrap;
 }
 .columns__title {
-  font-size: 30px;
-  line-height: 36px;
-  color: #445161;
 }
 .title {
   text-align: center;
   justify-content: center;
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
 
   padding: 50px 0px 30px 0px;
 }
@@ -203,6 +203,28 @@ item__img img {
   line-height: 24px;
 }
 
+.vertical {
+}
+
+.vertical__title {
+}
+
+.vertical__body {
+}
+.vertical__row {
+}
+.vertical__column {
+}
+.vertical__item {
+}
+.vertical__sublabel {
+}
+.vertical__label {
+}
+.vertical__text {
+}
+.vertical_btn {
+}
 /*-----------footer----------------*/
 .footer {
   background-color: #f5f5f5;
